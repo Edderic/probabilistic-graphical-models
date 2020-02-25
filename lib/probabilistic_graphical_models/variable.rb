@@ -1,6 +1,7 @@
 module ProbabilisticGraphicalModels
   class Variable
-    attr_reader :name, :neighbors
+    attr_reader :name
+    attr_accessor :neighbors
 
     def initialize(name:)
       @name = name
